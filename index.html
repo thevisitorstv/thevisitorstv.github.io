@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envía tu Historia de Terror</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Eater&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://static8.depositphotos.com/1252474/852/i/450/depositphotos_8526845-stock-photo-cross-burning-in-fire.jpg' rel='shortcut icon'/>
+</head>
+<body>
+    <!-- Loading screen -->
+    <div class="loading">
+        <div class="skull">💀</div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>✝ Cuéntanos tu Historia ✝</h1>
+            <form id="horrorForm" action="https://formspree.io/f/meoelnpp" method="POST">
+                
+            <div class="form-group">
+                <label for="email">Tu correo infernal:</label>
+                <input type="email" id="email" name="email" required placeholder="ejemplo@demonio.com">
+            </div>
+
+            <div class="form-group">
+                <label for="story">Tu relato de terror:</label>
+                <textarea id="story" name="story" rows="10" required placeholder="Escribe aquí tu experiencia aterradora..."></textarea>
+            </div>
+            
+            <button type="submit">Enviar al Abismo</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
